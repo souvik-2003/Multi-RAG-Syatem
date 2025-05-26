@@ -3,8 +3,6 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 import streamlit as st
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file='.env')
-
     # OpenRouter API Configuration
     OPENROUTER_API_KEY: str = st.secrets["OPENROUTER_API_KEY"]
     OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
