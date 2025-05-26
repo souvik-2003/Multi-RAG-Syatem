@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+faiss-cpu
+pypdf2
+python-docx
+pillow
+openai
+pydantic
+python-multipart
+chromadb
+sentence-transformers
